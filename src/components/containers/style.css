@@ -1,0 +1,21 @@
+.containers {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(226, 63, 112);
+    padding: 6px;
+  }
+  
+  .texts-pink {
+    color: rgb(226, 63, 112);
+  }

@@ -1,4 +1,10 @@
 import React from 'react';
+import Containers from '../containers';
+import Iglesia from '../../assets/iglesia-white.png';
+import Ropa from '../../assets/camiseta.png';
+
+
+
 import './style.css'
 const Body = () => {
     return (
@@ -29,13 +35,14 @@ const Body = () => {
                     20:00 hs
                 </div>
             </div>
-
-
-            <div className='ubication'>
-                <img className='image' alt='icono iglesia' src={require('../../assets/iglesia-white.png')} />
-                <h3 className='texts-pink'>Ceremonia</h3>
-                <p>Dr Carlos María de Pena 4164, 12900 Montevideo, Departamento de Montevideo</p>
-            </div>
+            <Containers
+                iconoUrl={Iglesia}
+                title="Ceremonia y Brindis"
+                text="Dr Carlos María de Pena 4164, 12900 Montevideo, Departamento de Montevideo" />
+            <Containers
+                iconoUrl={Ropa}
+                title="Código de vestimenta"
+                text="Vestimenta formal" />
         </div>
     )
 }
