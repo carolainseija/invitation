@@ -1,8 +1,8 @@
-form {
-    padding: 20px;
+.formConfirm {
+    padding: 0px 20px;
 }
-
 input {
+    width: 300px;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 10px;
@@ -21,4 +21,10 @@ button {
 
 button:hover {
     background-color: #EFB810;
+}
+
+@media screen and (max-width: 500px) {
+    input {
+        width: 50%;
+    }
 }

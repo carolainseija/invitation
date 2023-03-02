@@ -13,7 +13,7 @@ const Body = () => {
                 <h1 className='title'>¡Te invitamos a nuestra mejor cita!</h1>
                 <p className='texts'>"Les estoy dando un mandamiento nuevo: que se amen los unos a los otros. Ámense tal como yo los amé"</p>
                 <p>Juan 13:34</p>
-                <h2 className='subtitle'> 18 de Noviembre de 2024</h2>
+                <h2 className='subtitle'> 18 de Noviembre de 2023</h2>
             </div>
             <div className='date'>
                 <div className='date_info'>
@@ -28,7 +28,7 @@ const Body = () => {
             <div className='date'>
                 <div className='date_info'>
                     <span>Año</span>
-                    2024
+                    2023
                 </div>
                 <div className='date_info'>
                     <span>Hora</span>

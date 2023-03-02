@@ -42,6 +42,7 @@
   padding: 20px;
   margin: 5px;
   flex-direction: column;
+  min-width: 40px;
 }
 span {
   color: #EFB810;

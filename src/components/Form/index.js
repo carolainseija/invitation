@@ -3,7 +3,7 @@ import './style.css';
 
 const Form = () => {
     return (
-        <div>
+        <div className="formConfirm">
             <h1>Confirmanos tu asistencia</h1>
             <p>Conflrmación unica y exclusiva para brindis y ceremonia.</p>
             <form>
