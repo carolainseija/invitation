@@ -19,7 +19,7 @@
   padding: 20px;
 }
 .subtitle {
-  color: rgb(226, 63, 112);
+  color: #EFB810;
   font-size: 30px;
   padding: 20px;
 }
@@ -37,14 +37,14 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: 2px solid rgb(226, 63, 112);
+  border: 2px solid #EFB810;
   border-radius: 4px;
   padding: 20px;
   margin: 5px;
   flex-direction: column;
 }
 span {
-  color: rgb(226, 63, 112);
+  color: #EFB810;
   font-weight: 400;
 }
 

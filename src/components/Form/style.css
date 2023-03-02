@@ -10,7 +10,7 @@ input {
 }
 
 button {
-    background-color: rgb(226, 63, 112);
+    background-color: #EFB810;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -20,5 +20,5 @@ button {
 }
 
 button:hover {
-    background-color: rgb(216, 105, 138);
+    background-color: #EFB810;
 }
